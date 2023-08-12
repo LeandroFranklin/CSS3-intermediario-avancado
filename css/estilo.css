@@ -1,0 +1,50 @@
+/*Herança e especificidade
+
+
+Borders e backgrounds não tags que geram herança.
+Ex:
+
+body{
+    background: gray;
+    border: 1px solid blue;
+}
+
+As tags dentro de body não herdaram essas caracteristicas
+-----------------------------------------------------------------------------------------------------
+
+o css é sequencial
+
+ex:
+
+p{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+logo, valerá a segunda declaração de p
+------------------------------------------------------------------------------------------------------
+
+existem ordens de especificidades, quantos mais define mais é a prioridade
+
+menor para o maior
+
+*{
+
+}
+
+h2{
+
+}
+
+h2.verde{
+
+}
+
+h2#amarelo{
+    
+}
+
+*/
