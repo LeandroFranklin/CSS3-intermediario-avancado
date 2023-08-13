@@ -1,50 +1,36 @@
-/*Herança e especificidade
+/* Barra de navegação vertical
 
-
-Borders e backgrounds não tags que geram herança.
-Ex:
-
-body{
-    background: gray;
-    border: 1px solid blue;
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
-As tags dentro de body não herdaram essas caracteristicas
------------------------------------------------------------------------------------------------------
-
-o css é sequencial
-
-ex:
-
-p{
-    color: red;
+li{
+    padding: 5px 20px;
+    background: url(../imagens/seta.png) no-repeat left center;
 }
 
-p{
-    color: blue;
+------------------------------------------------------------------------------*/
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
-logo, valerá a segunda declaração de p
-------------------------------------------------------------------------------------------------------
-
-existem ordens de especificidades, quantos mais define mais é a prioridade
-
-menor para o maior
-
-*{
-
+ul a{
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: url(../imagens/menu.png) no-repeat left bottom;
 }
 
-h2{
-
+a:hover{
+    background-position: right bottom;
 }
-
-h2.verde{
-
-}
-
-h2#amarelo{
-    
-}
-
-*/
