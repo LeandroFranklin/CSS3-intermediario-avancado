@@ -286,7 +286,7 @@ textarea{
 ----------------------------------------------------------*/
 
 /*Estilizando formulários parte 2
-*/
+
 
 body{
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -339,5 +339,30 @@ input.submit{
     padding: 5px 20px;
     height: 45px;
     width: 90%;
+}
+
+--------------------------------------------------------------*/
+
+/* Arredondamento com imagens
+*/
+
+.caixa{
+    width: 400px;
+    background: #dedede url(../imagens/topo2.png) no-repeat left top;
+}
+
+
+.caixa h2{
+    padding: 10px 20px 0 20px;
+    background: url(../imagens/topo2.png) no-repeat left top;
+}
+
+.caixa p{
+    padding: 0 20px;
+}
+
+.caixa .ultimo{
+    background: url(../imagens/baixo2.png) no-repeat left bottom;
+    padding-bottom: 20px;
 }
 
